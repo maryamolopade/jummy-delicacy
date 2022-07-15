@@ -1,9 +1,10 @@
 function myFunction() {
-    var x =document.getElementById("nav");
+    var x = document.getElementById("nav");
     if (x.className === "nav") {
-        x.className += "responsive"
+        x.className += " responsive"
     }
     else {
-        x.className ="nav"
+        x.className = "nav"
     }
 }
+console.log("Hello")
